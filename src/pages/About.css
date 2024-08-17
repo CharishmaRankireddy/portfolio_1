@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-info {
+  flex: 1;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 200px; /* Set the maximum width */
+  height: auto;     /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: make the image circular */
+}

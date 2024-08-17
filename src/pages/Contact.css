@@ -1,0 +1,51 @@
+/* src/pages/contact.css */
+
+#contact {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 1rem; /* Adds spacing inside the section */
+    margin: 2rem auto; /* Centers the section horizontally with margin on top and bottom */
+    max-width: 600px; /* Limits the width to prevent it from becoming too wide */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a 3D effect */
+  }
+  
+  #contact h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    color: #333; /* Dark grey color for better readability */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column; /* Arranges form elements in a vertical column */
+  }
+  
+  #contact input,
+  #contact textarea {
+    font-size: 1rem; /* Standard font size */
+    padding: 0.75rem; /* Adds padding inside the input and textarea */
+    margin-bottom: 1rem; /* Space between form elements */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Rounded corners for inputs and textareas */
+  }
+  
+  #contact textarea {
+    resize: vertical; /* Allows vertical resizing of textarea */
+    min-height: 150px; /* Minimum height for the textarea */
+  }
+  
+  #contact button {
+    font-size: 1rem; /* Standard font size */
+    padding: 0.75rem 1.5rem; /* Adds padding inside the button */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Removes the border */
+    border-radius: 8px; /* Rounded corners for the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  #contact button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
